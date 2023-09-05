@@ -1,8 +1,8 @@
-const express = require('express')
+const express = require('express');
 const mongoose = require('mongoose')
 
 const PORT = 3000;
-const URL = "mongodb://localhost:27017/questbox";
+const URL = 'mongodb://localhost:27017/questbox'
 
 const app = express();
 app.use(express.json())
